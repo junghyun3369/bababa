@@ -1,6 +1,6 @@
-def main():
-    print("Hello from study01!")
-
-
-if __name__ == "__main__":
-    main()
+def calc(a, b, c ):
+    if c == '+':
+        return a+b ## 8(값) 출력
+    # return f'{a} {c} {b}' ## 5+3 출력
+    #15의 값을 반환하려면 어떤 코드를 작성해야하는가????
+print(calc(5, 3, '+')) #5+3 공식이 되도록 하고 3번째 자리는 -,*,/ 도 가능하도록
