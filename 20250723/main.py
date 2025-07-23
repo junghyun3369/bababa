@@ -1,6 +1,12 @@
-def main():
-    print("Hello from 20250723!")
+a = "문자열"
+
+for txt in a:
+    print(txt)
 
 
-if __name__ == "__main__":
-    main()
+
+
+
+
+
+
