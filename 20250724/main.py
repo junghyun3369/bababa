@@ -103,13 +103,27 @@
 #         break
 
 
-for i in iter(int, 1):
-  if input("비밀번호를 입력하세요.") == "PassWord":
-    break
+# for i in iter(int, 1):
+#   if input("비밀번호를 입력하세요.") == "PassWord":
+#     break
 
 
 
+n = int(input("숫자를 입력하세요: "))
+i = 1
+even = 0
+odd = 0
+# 문제 while문를 사용하여 홀수와 짝수를 각각 합을 구하시오.
 
+while i <= n:
+    if i%2 == 0:
+       even += i
+    else:
+       odd += i
+    i = i + 1
+
+print("짝수 개수:", even)
+print("홀수 개수:", odd)
 
 
 
