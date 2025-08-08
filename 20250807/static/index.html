@@ -6,9 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-  <form action="/s2/" method="get">
+  <!-- <input type="/s2/read" method="get" target="_blank">
     <input type="text" name="txt" placeholder="글작성"/>
+    <input type="file" name="file" /><br/>
     <button type="submit">요청</button>
   </form>
+  <hr/>
+  <a href="/s2/read?fileName=test.png" target="_blank">이미지확인</a> -->
+  
+  <form action="/s2/read" method="get">
+    <input type="text" name="fileName" required /><br/>
+    <button type="submit">이미지확인</button>
+  </form>
+  <form action="/s2/" method="post" enctype="multipart/form-data">
+
 </body>
 </html>
